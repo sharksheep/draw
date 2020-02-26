@@ -1,17 +1,14 @@
-<mxfile host="www.draw.io" modified="2020-02-26T10:27:12.448Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="aJmkdD-D9et-Zth_SpjR" version="12.7.6" type="github">
+<mxfile host="www.draw.io" modified="2020-02-26T10:56:02.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="hAGiCzGXmdfFmdZYQDLC" version="12.7.6" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1264" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="840" y="340" width="100" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="zdDwKQ-Hy3JtDxFSYleu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-2" target="zdDwKQ-Hy3JtDxFSYleu-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zdDwKQ-Hy3JtDxFSYleu-2" value="启动App" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="80" y="30" width="80" height="50" as="geometry" />
+          <mxGeometry x="90" y="30" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zdDwKQ-Hy3JtDxFSYleu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-5" target="zdDwKQ-Hy3JtDxFSYleu-10">
           <mxGeometry relative="1" as="geometry" />
@@ -19,8 +16,70 @@
         <mxCell id="zdDwKQ-Hy3JtDxFSYleu-5" value="启动计步服务进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="110" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-10" value="绑定计步传感器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-10" target="zdDwKQ-Hy3JtDxFSYleu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-10" value="注册计步传感器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-18" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-14" target="zdDwKQ-Hy3JtDxFSYleu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-23" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-14" target="zdDwKQ-Hy3JtDxFSYleu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-14" value="是否产生步数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="250" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-17" target="zdDwKQ-Hy3JtDxFSYleu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-17" value="读取传感器步数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-25" value="否" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-19" target="zdDwKQ-Hy3JtDxFSYleu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-34" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-19" target="zdDwKQ-Hy3JtDxFSYleu-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-36" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-19" target="zdDwKQ-Hy3JtDxFSYleu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-19" value="本地上次缓存&lt;br&gt;步数是否改变" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="342.5" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-35" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-26" target="zdDwKQ-Hy3JtDxFSYleu-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-26" target="zdDwKQ-Hy3JtDxFSYleu-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="405" y="443" />
+              <mxPoint x="120" y="443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-26" value="是否符合产&lt;br&gt;生步数规则" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="342.5" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-38" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-28" target="zdDwKQ-Hy3JtDxFSYleu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-28" value="将新增的&lt;br&gt;步数存入数据库和缓存" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="342.5" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zdDwKQ-Hy3JtDxFSYleu-21" target="zdDwKQ-Hy3JtDxFSYleu-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="383" />
+              <mxPoint x="20" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zdDwKQ-Hy3JtDxFSYleu-21" value="等待系统计步广播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="365" width="120" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
